@@ -12,14 +12,9 @@ npm install
 ```
 
 To initalize database, you will have to fill the .env.
-By default, the port 5432
-Then launch docker compose to initialize database.
+By default, the port for the database is 5432 and 3081 for the api.
+Then launch docker compose to initialize api and database.
 
 ```
 docker compose up
-```
-
-To start up server (on localhost)
-```
-npm run dev
 ```
